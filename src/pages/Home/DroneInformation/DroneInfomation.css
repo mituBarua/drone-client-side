@@ -1,0 +1,30 @@
+.info-details{
+    padding: 10px;
+    margin: 10px;
+  }
+.line-height{
+    line-height: 40px;
+}
+.bg{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:1199.98px) {
+    .line-height {
+        line-height: 32px;
+    }
+}
+@media screen and (max-width: 991.98px) {
+   .line-height {
+    font-size: 15px;
+    line-height: 19px;
+} 
+.info-details{
+    margin: 0;
+    padding: 5px;
+    
+}
+}

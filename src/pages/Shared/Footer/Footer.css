@@ -1,0 +1,45 @@
+.web-footer {
+  background-color: #343434;
+  color: white;
+  background: linear-gradient(
+      rgb(72 72 72 / 25%) 100%,
+      rgb(116 112 112 / 43%) 100%
+    ),
+    url(../../../images/breadcramp.jpg);
+  position: relative;
+  z-index: 1;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+.web-footer img {
+  width: 100%;
+}
+.social .social-icon {
+  font-size: 25px;
+  margin: 5px 10px;
+}
+.copyrigth-area {
+  border-top: 2px solid #423f54;
+  margin-top: 50px;
+  padding: 30px 0;
+  text-align: center;
+}
+.copyrigth-area p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+}
+.copyrigth-area p a {
+  color: #ff7f47;
+  font-weight: 600;
+  text-decoration: none;
+}
+#button-addon2 {
+  background-color: #ff7f47;
+  color: white;
+  border-color: #ff7f47;
+  font-weight: 600;
+}

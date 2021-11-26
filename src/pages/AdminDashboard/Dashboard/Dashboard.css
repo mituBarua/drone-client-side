@@ -1,0 +1,33 @@
+.dashboard-link a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    padding: 8px 20px;
+    border: 1x solid white;
+    margin: 1px;
+    text-align: left;
+    border-bottom: 1px solid;
+
+
+}
+.dashboard-link a:hover{
+    background-color: #545453;
+}
+.custom-drawer{
+    background-color: #343434;
+    color: white;
+    height: 100vh;
+}
+.dashboard-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user-name p{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 30px;
+    font-weight: 600;
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500;600;700&display=swap");
+
+.details-banner {
+  background: linear-gradient(
+      rgb(72 72 72 / 25%) 100%,
+      rgb(116 112 112 / 43%) 100%
+    ),
+    url(../../images/breadcramp.jpg);
+  background-size: cover;
+  min-height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-banner h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.details-info{
+  position: relative;
+}
+.details-info img {
+  width: 100%;
+}
+.details-info h2 {
+  text-align: left;
+  font-size: 36px;
+  font-weight: 600;
+  color: #114c4c;
+}
+.overview {
+  text-align: left;
+  margin: 16px 0;
+}
+.overview h5 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #114c4c;
+}
+.overview p {
+  color: rgb(78, 78, 78);
+  font-size: 16px;
+}
+/* .details p {
+  z-index: 1000;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  bottom: 0;
+  background-color: #ff7f47;
+  height: 40px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+} */
+.login-box {
+  width: 80%;
+  padding: 30px 25px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 64px rgb(17 17 17 / 10%);
+  box-shadow: 0 0 64px rgb(17 17 17 / 10%);
+  border-radius: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="tel"],
+select {
+  display: block;
+  padding: 8px 15px;
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  height: 50px;
+}
+.booknow {
+  padding: 9px 18px;
+  background-color: #ff7f47;
+  color: white;
+  border-color: #ff7f47;
+  border-radius: 10px;
+  font-size: 18px;
+}

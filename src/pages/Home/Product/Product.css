@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+.offer-card{
+   
+    border: none;
+    margin: 15px 0;
+  
+}
+.offer-card img{
+    width: 90%;
+}
+.offer-card .card-body{
+    padding: 5px;
+}
+.price-duration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details h5{
+    font-size: 21px;
+    color:#ff7f47;
+    padding: 6px 0;
+    font-weight: 600;
+}
+.price-duration span {
+    font-size: 20px!important;
+    font-weight: 700;
+}
+.details{
+    text-align: left;
+}
+/* .details p{
+    position: absolute;
+    top: 13px;
+    right: 59px;
+     bottom: 0;
+    text-transform: uppercase;
+    background-color: #ff7f47;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+} */
+
+.details h4{
+    color: #7c7c7c;
+    font-weight: 700;
+    margin: 5px 0;
+    font-size: 17px;
+
+}
+@media screen and (max-width: 767.98px) {
+    .offer-card img{
+        width: 100%;
+    }
+}

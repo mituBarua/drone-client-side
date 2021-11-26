@@ -1,0 +1,28 @@
+.contact-btn {
+  padding: 8px 13px;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #0059fb;
+}
+@media screen and (max-width:1199.98px) {
+  .singleBanner img {
+    width: 70%;
+  }
+}
+@media screen and  (max-width:991px) {
+  .singleBanner img {
+    width: 70%;
+  }
+}
+@media screen and  (max-width:767px) {
+  .singleBanner img {
+    width: 60%;
+  }
+}
+@media screen and  (max-width: 575px) {
+  .singleBanner img {
+    width: 50%;
+  }
+}
+
+

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500;600;700&display=swap');
+
+.nav-position{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+.custom-nav a{
+  margin: 5px 5px;
+  font-family: 'Noto Sans Mono', monospace;
+  color: #ffffff!important;
+  font-size: 16px;
+}
+.custom-nav button{
+  margin: 5px 10px;
+  font-family: 'Noto Sans Mono', monospace;
+}
+.user-name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-name a {
+  text-decoration: none;
+  /* color: #b02a37!important; */
+  font-size: 16px;
+  font-weight: 500;
+}
+.dropdownBtnClr{
+  background-color: #f27943;
+  border-color: #f27943;
+}
+.customDropDown a {
+  padding: 10px !important;
+  margin:0!important;
+
+}
+.customDropDown a .active{
+ background-color: #efefef!important;
+}  

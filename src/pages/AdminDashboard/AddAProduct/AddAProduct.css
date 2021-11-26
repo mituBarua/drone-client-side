@@ -1,0 +1,16 @@
+.custom-offer {
+    width: 60%;
+    text-align: left;
+    background-color: #ebe6e4;
+    padding: 30px;
+  }
+  @media screen and (max-width:1199.98px) {
+    .w-25{
+      width: 42%!important;
+    }
+  }
+  @media screen and (max-width: 991.98px) {
+    .w-25{
+      width: 75%!important;
+    }
+  }
